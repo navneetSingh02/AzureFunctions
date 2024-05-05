@@ -10,7 +10,7 @@ namespace BlobTriggerFunctionInProcess
 {
     public class BlobTriggerInprocess
     {
-        [FunctionName("BlobTriggerCSharp")]
+        [FunctionName("BlobTriggerInProcess")]
         public static void Run([BlobTrigger("image-input/{name}", Connection = "STORAGE_ACCOUNT_CONNECTION_STRING")] Stream inBlob,
         string name,
         [Blob("image-output/thumbnail-{name}", FileAccess.Write, Connection = "STORAGE_ACCOUNT_CONNECTION_STRING")] Stream outBlob,

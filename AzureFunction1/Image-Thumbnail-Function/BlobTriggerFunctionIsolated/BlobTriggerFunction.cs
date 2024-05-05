@@ -17,7 +17,7 @@ namespace BlobTriggerImageThumbnail
             _logger = logger;
         }
 
-        [Function("BlobTriggerFunction")]
+        [Function("BlobTriggerIsolated")]
         [BlobOutput("image-output/thumbnail-{name}", Connection = "STORAGE_ACCOUNT_CONNECTION_STRING")]
         public static async Task<Stream> Run([BlobTrigger("image-input/{name}", Connection = "STORAGE_ACCOUNT_CONNECTION_STRING")] Stream inBlob,
         string name,
