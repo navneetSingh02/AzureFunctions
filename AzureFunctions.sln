@@ -5,9 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image-Thumbnail-Function", "Image-Thumbnail-Function", "{8DAA3B0D-AC1A-4747-8C0B-2900F24BAA6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobTriggerFunctionIsolated", "AzureFunction1\Image-Thumbnail-Function\BlobTriggerImageThumbnail\BlobTriggerFunctionIsolated.csproj", "{E93C03D6-715B-4394-8EBE-DE0F178D0862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobTriggerFunctionInProcess", "AzureFunction1\Image-Thumbnail-Function\BlobTriggerFunctionInProcess\BlobTriggerFunctionInProcess.csproj", "{275C163F-8F83-4F53-8A33-60F870C9863E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobTriggerFunctionInProcess", "AzureFunction1\Image-Thumbnail-Function\BlobTriggerFunctionInProcess\BlobTriggerFunctionInProcess.csproj", "{275C163F-8F83-4F53-8A33-60F870C9863E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobTriggerFunctionIsolated", "AzureFunction1\Image-Thumbnail-Function\BlobTriggerFunctionIsolated\BlobTriggerFunctionIsolated.csproj", "{E3E64722-D829-4B05-A1EA-A8DA71E42640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,21 +15,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E93C03D6-715B-4394-8EBE-DE0F178D0862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E93C03D6-715B-4394-8EBE-DE0F178D0862}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E93C03D6-715B-4394-8EBE-DE0F178D0862}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E93C03D6-715B-4394-8EBE-DE0F178D0862}.Release|Any CPU.Build.0 = Release|Any CPU
 		{275C163F-8F83-4F53-8A33-60F870C9863E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{275C163F-8F83-4F53-8A33-60F870C9863E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{275C163F-8F83-4F53-8A33-60F870C9863E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{275C163F-8F83-4F53-8A33-60F870C9863E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E64722-D829-4B05-A1EA-A8DA71E42640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E64722-D829-4B05-A1EA-A8DA71E42640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E64722-D829-4B05-A1EA-A8DA71E42640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E64722-D829-4B05-A1EA-A8DA71E42640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E93C03D6-715B-4394-8EBE-DE0F178D0862} = {8DAA3B0D-AC1A-4747-8C0B-2900F24BAA6B}
 		{275C163F-8F83-4F53-8A33-60F870C9863E} = {8DAA3B0D-AC1A-4747-8C0B-2900F24BAA6B}
+		{E3E64722-D829-4B05-A1EA-A8DA71E42640} = {8DAA3B0D-AC1A-4747-8C0B-2900F24BAA6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {911EC8AE-5B77-4E58-BCDE-58F5ABEFCB88}
